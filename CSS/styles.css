@@ -3,6 +3,8 @@
     --secondary-font: "Raleway", sans-serif;
     --main-color: #212121;
     --secondary-color: #2196f3;
+    --third-color: #FFFFFF;
+    --fourth-color: #757575;
   }
 body {
     font-family: var(--main-font);
@@ -35,7 +37,7 @@ body {
     line-height: 1.142;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--fourth-color);
 }
 .navigation-link:hover,
 .navigation-link:focus,
@@ -54,7 +56,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--third-color);
   }
 .title-button {
     font-weight: 700;
@@ -64,13 +66,13 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: white;
+    color: var(--third-color);
     background-color: var(--secondary-color);
   }
 .title-button:hover,
 .title-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--secondary-color);
+  color: var(--third-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
@@ -85,11 +87,11 @@ body {
     font-weight: 700;
     line-height: 1.142;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-color);
   }
 .features-description {
     line-height: 1.714;
-    color: #757575;
+    color: var(--fourth-color);
     text-transform: none;
   }
 .heading {
@@ -98,21 +100,21 @@ body {
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
   }
 .team-name {
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
     font-weight: 500;
-    color: #212121;
+    color: var(--main-color);
   }
 .team-position {
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
     font-weight: 400;
-    color: #757575;
+    color: var(--fourth-color);
   }
 .menu-item {
     font-weight: 500;
@@ -120,7 +122,7 @@ body {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
   }
 .menu-button {
     font-weight: 500;
@@ -128,14 +130,14 @@ body {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
     background-color: #f5f4fa;
     border-radius: 4px;
   }
 .menu-button:hover,
 .menu-button:focus {
-    background-color: #2196f3;
-    color: #ffffff;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor: pointer;
@@ -145,13 +147,13 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color);
   }
 .portfolio-text {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--fourth-color);
   }
 /* FOOTER */
 footer {
@@ -164,7 +166,7 @@ footer {
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--third-color);
   }
 .footer-address-link {
     color: rgba(255, 255, 255, 0.6);
