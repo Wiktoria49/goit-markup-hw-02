@@ -5,6 +5,8 @@
     --secondary-color: #2196f3;
     --third-color: #FFFFFF;
     --fourth-color: #757575;
+    --fifth-color: #2f303a;
+    --sixth-color: #f5f4fa;
   }
 body {
     font-family: var(--main-font);
@@ -46,7 +48,7 @@ body {
   color: var(--secondary-color);
 }
 .header {
-    background-color: #2f303a;
+    background-color: var(--fifth-color);
   }
   
 .title {
@@ -131,7 +133,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    background-color: #f5f4fa;
+    background-color: var(--sixth-color);
     border-radius: 4px;
   }
 .menu-button:hover,
@@ -157,7 +159,7 @@ body {
   }
 /* FOOTER */
 footer {
-    background-color: #2f303a;
+    background-color: var(--fifth-color);
   }
 .footer-address {
     font-style: normal;
